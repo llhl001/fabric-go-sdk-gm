@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32114f7a-f5b7-4a91-8a51-83c0d8361a31" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/bin/configtx.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/bin/configtxgen" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/bin/crypto-config.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/bin/cryptogen" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/config/config-test.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/src/github.com/chaincode_example02(copy)/chaincode_example02.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/src/github.com/chaincode_example02(copy)/chaincode_example02_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/src/github.com/example_cc(copy)/example_cc.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/bccsp_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/factory_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/gmfactory.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/opts_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11factory_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/swfactory_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/cert.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/certhelper.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/conf.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/dummyks.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/ecdsakey.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/fileks.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/hash.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/impl.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/impl_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/internals.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/keyderiv.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/keygen.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/keyimport.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/sm2.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/sm2key.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/sm4.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/sm4key.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/mocks/mocks.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/ecdsa_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/ecdsakey_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/impl_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/pkcs11_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/signer/signer_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/aes_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/dummyks_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/ecdsa_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/enc_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/fileks_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/hash_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/impl_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/keyderiv_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/keygen_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/keyimport_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/mocks/mocks.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/rsa_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/sign_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/sw_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/verify_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/errs_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/io_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/keys_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/slice_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/x509_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/cert.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/cert_pool.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/ifile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/ofile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/p256.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/pkcs1.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/pkcs8.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/priv.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/pub.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/req.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/sm2.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/sm2_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/verify.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm2/x509.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm3/ifile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm3/sm3.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm3/sm3_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm4/key.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm4/sm4.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm4/sm4_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/alert.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/cipher_suites.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/common.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/conn.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/credentials.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/credentials_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/credentials_util_go18.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/echo/echo.pb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/echo/echo.proto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/admin.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/adminkey.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/ca.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/cakey.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/ecadmin.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/ecadminkey.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/ecca.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/gmcredentials/testdata/eccakey.pem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/handshake_client.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/handshake_messages.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/handshake_server.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/key_agreement.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/prf.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/ticket.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/tjfoc/gmtls/tls.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_amd64.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_amd64.s" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_generic.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_noasm.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_vectors_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/internal/chacha20/chacha_generic.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/internal/chacha20/chacha_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/const_amd64.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/curve25519_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/hkdf/hkdf.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/poly1305.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/poly1305_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_amd64.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_amd64.s" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_arm.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_arm.s" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_ref.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160block.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/terminal.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_bsd.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_linux.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_windows.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/text/width/kind_string.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/text/width/tables.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/text/width/transform.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/text/width/trieval.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/golang.org/x/text/width/width.go" />
+      <change beforePath="$PROJECT_DIR$/api/apiconfig/config.go" afterPath="$PROJECT_DIR$/api/apiconfig/config.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/config/config.go" afterPath="$PROJECT_DIR$/pkg/config/config.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-client/channel/query.go" afterPath="$PROJECT_DIR$/pkg/fabric-client/channel/query.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-client/channel/txnproposer.go" afterPath="$PROJECT_DIR$/pkg/fabric-client/channel/txnproposer.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-client/client.go" afterPath="$PROJECT_DIR$/pkg/fabric-client/client.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-client/internal/util.go" afterPath="$PROJECT_DIR$/pkg/fabric-client/internal/util.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-client/mocks/mockconfig.go" afterPath="$PROJECT_DIR$/pkg/fabric-client/mocks/mockconfig.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-txn/admin/transactionconfig.go" afterPath="$PROJECT_DIR$/pkg/fabric-txn/admin/transactionconfig.go" />
+      <change beforePath="$PROJECT_DIR$/pkg/fabric-txn/internal/common.go" afterPath="$PROJECT_DIR$/pkg/fabric-txn/internal/common.go" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/configtx.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/ca/eaade59087c6d97fcf350e94f37ad9f2c692bb66f182148ce58940de70ade9ce_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/ca/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/admincerts/Admin@example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/org1.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/cacerts/org2.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/signcerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/org1.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/org2.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/admincerts/Admin@example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/cacerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/keystore/e8a4fdaacf1ef1d925686f19f56eb558b6c71f0116d85916299fc1368de2d58a_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/signcerts/orderer.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tlscacerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/admincerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/cacerts/example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/keystore/ef8e88d28a86f23466ad378003d819561adbedc77fe90cc250424ce4de179a3c_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/signcerts/Admin@example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/ca/a22daf356b2aab5792ea53e35f66fccef1d7f1aa2b3a2b92dbfbf96a448ea26a_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/ca/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/cacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/cacerts/org1.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/cacerts/org2.example.com-tls-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/signcerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/msp/tlscacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/admincerts/Admin@org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/cacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/keystore/ecd9f80eb183352d5d4176eeb692e30bbfba4c38813ff9a0b6b799b546dda1d8_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/signcerts/peer0.org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tlscacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/admincerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/cacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/keystore/9022d671ceedbb24af3ea69b5a8136cc64203df6b9920e26f48123fcfcb1d2e9_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/signcerts/Admin@org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/admincerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/cacerts/org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/keystore/e4af7f90fa89b3e63116da5d278855cfb11e048397261844db89244549918731_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/signcerts/User1@org1.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/ca/464d550fe9bf9e7d8976cdf59d1a5d472598f54c058c3546317c5c5fb0ddfd6e_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/ca/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/msp/admincerts/Admin@org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/msp/cacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/msp/signcerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/admincerts/Admin@org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/cacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/keystore/81c71fd393054571c8d789f302a10390e0e83eb079b02a26a162ee26f02ff796_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/signcerts/peer0.org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tlscacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/tlscacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/admincerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/cacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/keystore/5a983ddcbefe52a7f9b8ee5b85a590c3e3a43c4ccd70c7795bec504e7f74848d_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/signcerts/Admin@org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/User1@org2.example.com/admincerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/User1@org2.example.com/cacerts/org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/User1@org2.example.com/keystore/ce96b95b8ca136f17ff682d99a53f5f029bd90ba2dcd19aa04a1fbe6df59a3f1_sk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/crypto-config/peerOrganizations/org2.example.com/users/User1@org2.example.com/signcerts/User1@org2.example.com-cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/mychannel.tx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/mychanneltx.tx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/orgchannel.tx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/channel/twoorgs.genesis.block" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/config/config_test.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/docker-compose.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/src/github.com/example_cc/example_cc.go" afterPath="$PROJECT_DIR$/test/fixtures/src/github.com/example_cc/example_cc.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/base_test_setup.go" afterPath="$PROJECT_DIR$/test/integration/base_test_setup.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/channel_queries_test.go" afterPath="$PROJECT_DIR$/test/integration/channel_queries_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/end_to_end_test.go" afterPath="$PROJECT_DIR$/test/integration/end_to_end_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/events_test.go" afterPath="$PROJECT_DIR$/test/integration/events_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/fabric_ca_test.go" afterPath="$PROJECT_DIR$/test/integration/fabric_ca_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/install_chaincode_test.go" afterPath="$PROJECT_DIR$/test/integration/install_chaincode_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/orgs/test_setup.go" afterPath="$PROJECT_DIR$/test/integration/orgs/test_setup.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/transient_data_test.go" afterPath="$PROJECT_DIR$/test/integration/transient_data_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/integration/utils.go" afterPath="$PROJECT_DIR$/test/integration/utils.go" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/check_license.sh" afterPath="$PROJECT_DIR$/test/scripts/check_license.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/check_lint.sh" afterPath="$PROJECT_DIR$/test/scripts/check_lint.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/check_spelling.sh" afterPath="$PROJECT_DIR$/test/scripts/check_spelling.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/dependencies.sh" afterPath="$PROJECT_DIR$/test/scripts/dependencies.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/fabric_test_commitlevel.sh" afterPath="$PROJECT_DIR$/test/scripts/fabric_test_commitlevel.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/integration.sh" afterPath="$PROJECT_DIR$/test/scripts/integration.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/racedetector.sh" afterPath="$PROJECT_DIR$/test/scripts/racedetector.sh" />
+      <change beforePath="$PROJECT_DIR$/test/scripts/unit.sh" afterPath="$PROJECT_DIR$/test/scripts/unit.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/session.vim" afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/session.vim" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Knetic/govaluate/test.sh" afterPath="$PROJECT_DIR$/vendor/github.com/Knetic/govaluate/test.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric-ca/util/csp.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric-ca/util/csp.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/bccsp.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/bccsp.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/factory.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/factory.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/nopkcs11.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/nopkcs11.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/opts.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/opts.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11factory.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/factory/pkcs11factory.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/hashopts.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/hashopts.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/opts.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/opts.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/pkcs11.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/pkcs11/pkcs11.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/impl.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/impl.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/keys.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/utils/keys.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/cauthdsl/cauthdsl.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/cauthdsl/cauthdsl.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/config/msp/config.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/config/msp/config.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/config/msp/config_util.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/common/config/msp/config_util.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/chaincode/platforms/platforms.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/chaincode/platforms/platforms.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/chaincode/platforms/util/utils.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/chaincode/platforms/util/utils.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/connection.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/connection.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/creds.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/creds.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/server.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/cert.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/cert.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/configbuilder.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/configbuilder.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/identities.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/identities.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/mspimpl.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/mspimpl.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/mspmgrimpl.go" afterPath="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/mspmgrimpl.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/clean.sh" afterPath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/clean.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/test.sh" afterPath="$PROJECT_DIR$/vendor/github.com/pelletier/go-toml/test.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/const_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/const_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/cswap_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/cswap_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/curve25519.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/curve25519.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/doc.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/doc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/mul_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/mul_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/square_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/square_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/sha3.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/sha3.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor_unaligned.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor_unaligned.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/certs.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/certs.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/channel.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/channel.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/cipher.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/cipher.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client_auth.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client_auth.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/common.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/common.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/connection.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/connection.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/handshake.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/handshake.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/kex.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/kex.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/keys.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/keys.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/messages.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/messages.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mux.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mux.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/server.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/session.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/session.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/transport.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/transport.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/client_conn_pool.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/client_conn_pool.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/configure_transport.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/configure_transport.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go16.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go16.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go17.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go17.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go18.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go18.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/http2.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/http2.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/server.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/transport.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/transport.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/write.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/http2/write.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkall.sh" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkall.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkerrors.sh" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkerrors.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall_solaris.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_darwin.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_linux.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_linux.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/codegen.sh" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/codegen.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/coverage.sh" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/coverage.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go17.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go17.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go18.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go18.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_pre_go17.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_pre_go17.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/server.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/grpc/transport/handler_server.go" afterPath="$PROJECT_DIR$/vendor/google.golang.org/grpc/transport/handler_server.go" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fabric_sdk_go$TestChannelQueries_in_channel_queries_test_go.coverage" NAME="TestChannelQueries in channel_queries_test.go Coverage Results" MODIFIED="1523437202134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fabric-sdk-go" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="credentials.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1934#2109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="go17.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/go17.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#1598#1788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/proxy.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1584#1706#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc-orderer-kafka-base.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/dc-orderer-kafka-base.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc-orderer-kafka.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/dc-orderer-kafka.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientconn.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/clientconn.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5850">
+              <caret line="340" column="34" lean-forward="false" selection-start-line="340" selection-start-column="23" selection-end-line="340" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="credentials_util_pre_go17.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_pre_go17.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1609#1659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pkgfactory.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/def/fabapi/pkgfactory.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabapi.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/def/fabapi/fabapi.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mockconfig.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/fabric-ca-client/mocks/mockconfig.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#118#293#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>origGoPath</find>
+      <find>GetDefault</find>
+      <find>InitConfig</find>
+      <find>NewClient</find>
+      <find>CheckSignatureFrom</find>
+      <find>x509: SM2 verification failur</find>
+      <find>ca.org1.example.com</find>
+      <find>AdminUser</find>
+      <find>ht</find>
+      <find>TLS</find>
+      <find>State</find>
+      <find>TLSInfo</find>
+      <find>req</find>
+      <find>httplex</find>
+      <find>http</find>
+      <find>tls.</find>
+      <find>Header</find>
+      <find>nettrace</find>
+      <find>verify</find>
+      <find>x509</find>
+      <find>bccsp</find>
+      <find>channel</find>
+      <find>make</find>
+      <find>go</find>
+      <find>tls</find>
+      <find>net</find>
+      <find>internal</find>
+      <find>gmtls</find>
+      <find>sm2</find>
+      <find>dialContext</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials</dir>
+      <dir>$PROJECT_DIR$/vendor/github.com/tjfoc/http</dir>
+      <dir>$PROJECT_DIR$/vendor/github.com/hyperledger/fabric</dir>
+      <dir>$PROJECT_DIR$/pkg/fabric-ca-client</dir>
+      <dir>$PROJECT_DIR$/test/integration</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/vendor/google.golang.org/grpc/internal</dir>
+      <dir>$PROJECT_DIR$/vendor/google.golang.org/grpc</dir>
+      <dir>$PROJECT_DIR$/vendor/github.com/tjfoc/internal</dir>
+      <dir>$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp</dir>
+      <dir>$PROJECT_DIR$/def/fabapi</dir>
+      <dir>$PROJECT_DIR$/def</dir>
+      <dir>$PROJECT_DIR$/api</dir>
+      <dir>$PROJECT_DIR$/pkg</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/request.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/response.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/server.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/sniff.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/status.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/http/transport.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/client_test.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/clientserver_test.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/cookie_test.go" />
+        <option value="$PROJECT_DIR$/vendor/google.golang.org/grpc/transport/handler_server.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/http.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/transfer.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/request.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/h2_bundle.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/cgi/child.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/httptest/httptest.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/httptest/server.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/server.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/response.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/transport.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmhttp/httptrace/trace.go" />
+        <option value="$PROJECT_DIR$/vendor/google.golang.org/grpc/server.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/server.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go17.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/write.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/configure_transport.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/client_conn_pool.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go16.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/transport.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/go18.go" />
+        <option value="$PROJECT_DIR$/vendor/golang.org/x/net/http2/http2.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/connection.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/creds.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/core/comm/server.go" />
+        <option value="$PROJECT_DIR$/pkg/fabric-client/mocks/mockconfig.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/msp/mspimpl.go" />
+        <option value="$PROJECT_DIR$/test/fixtures/dc-peer-base.yml" />
+        <option value="$PROJECT_DIR$/pkg/fabric-client/channel/txnproposer.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/sw/impl.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/sm2.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/hash.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/impl.go" />
+        <option value="$PROJECT_DIR$/test/fixtures/config/config-test.yaml" />
+        <option value="$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm3/sm3.go" />
+        <option value="$PROJECT_DIR$/pkg/fabric-client/internal/util.go" />
+        <option value="$PROJECT_DIR$/test/fixtures/dc-orderer-base.yml" />
+        <option value="$PROJECT_DIR$/test/integration/install_chaincode_test.go" />
+        <option value="$PROJECT_DIR$/test/integration/events_test.go" />
+        <option value="$PROJECT_DIR$/test/integration/base_test_setup.go" />
+        <option value="$PROJECT_DIR$/test/integration/channel_queries_test.go" />
+        <option value="$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go17.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="75" />
+    <option name="y" value="34" />
+    <option name="width" value="1837" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fabric-sdk-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="false" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor/golang.org/x/text" />
+      <recent name="$PROJECT_DIR$/vendor/golang.org/x/net" />
+      <recent name="$PROJECT_DIR$/vendor/github.com/tjfoc" />
+      <recent name="$PROJECT_DIR$/test/fixtures/config" />
+      <recent name="$PROJECT_DIR$/test/fixtures/bin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestChannelQueries in channel_queries_test.go">
+    <configuration name="TestChainCodeInvoke in end_to_end_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="fabric-sdk-go-kafka-latest" />
+      <working_directory value="$PROJECT_DIR$/test/integration" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hyperledger/fabric-sdk-go/test/integration" />
+      <pattern value="^TestChainCodeInvoke$" />
+    </configuration>
+    <configuration name="TestChaincodeInstal in install_chaincode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="fabric-sdk-go-kafka-latest" />
+      <working_directory value="$PROJECT_DIR$/test/integration" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hyperledger/fabric-sdk-go/test/integration" />
+      <pattern value="^TestChaincodeInstal$" />
+    </configuration>
+    <configuration name="TestChannelQueries in channel_queries_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="fabric-sdk-go-kafka-latest" />
+      <working_directory value="$PROJECT_DIR$/test/integration" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hyperledger/fabric-sdk-go/test/integration" />
+      <pattern value="^TestChannelQueries$" />
+    </configuration>
+    <configuration name="TestEvents in events_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="fabric-sdk-go-kafka-latest" />
+      <working_directory value="$PROJECT_DIR$/test/integration" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hyperledger/fabric-sdk-go/test/integration" />
+      <pattern value="^TestEvents$" />
+    </configuration>
+    <configuration name="TestOrgsEndToEnd in multiple_orgs_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="fabric-sdk-go-kafka-latest" />
+      <working_directory value="$PROJECT_DIR$/test/integration/orgs" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hyperledger/fabric-sdk-go/test/integration/orgs" />
+      <pattern value="^TestOrgsEndToEnd$" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestChannelQueries in channel_queries_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestChainCodeInvoke in end_to_end_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestOrgsEndToEnd in multiple_orgs_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestChaincodeInstal in install_chaincode_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestEvents in events_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestChannelQueries in channel_queries_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestEvents in events_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestChaincodeInstal in install_chaincode_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestOrgsEndToEnd in multiple_orgs_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestChainCodeInvoke in end_to_end_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 46m 24s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 47m 02s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 50m 39s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 51m 54s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 54m 05s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 18h 56m 10s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 19h 03m 47s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 19h 11m 16s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.13 at 19h 17m 27s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestChannelQueries_in_channel_queries_test_go - 2018.04.16 at 21h 28m 26s.xml">
+      <configuration name="TestChannelQueries in channel_queries_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="34" width="1837" height="1056" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39052925" sideWeight="0.49358973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50194985" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5946237" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49805015" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2551532" sideWeight="0.50641024" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/tjfoc/gmsm/sm3/sm3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2772">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/impl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/gm/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/hashopts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/bccsp/opts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/channel/txnproposer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="218" column="42" lean-forward="false" selection-start-line="218" selection-start-column="25" selection-end-line="218" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/internal/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apifabclient/fabricclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apifabclient/orderer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/orderer/orderer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/transient_data_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="69" column="84" lean-forward="false" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/fabric_ca_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="408" column="40" lean-forward="false" selection-start-line="408" selection-start-column="30" selection-end-line="408" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apitxn/sender.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/hyperledger/fabric/protos/utils/proputils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="285" column="22" lean-forward="false" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/channel/txnsender.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="204" column="67" lean-forward="false" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/src/github.com/example_cc_fp/example_cc_fp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/src/github.com/events_cc/events_cc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apifabclient/channel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/base_test_setup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="348" column="35" lean-forward="false" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-txn/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="28" column="85" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-txn/internal/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="78" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apitxn/proposer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-txn/admin/transactionconfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="49" column="77" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/end_to_end_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/config/config_test.yaml" />
+    <entry file="file://$PROJECT_DIR$/test/fixtures/crypto-config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/configtx.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/e2e.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/balancer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="243" column="41" lean-forward="false" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/dc--gm-test.yml" />
+    <entry file="file://$PROJECT_DIR$/test/fixtures/dc-orderer-base.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/mattn/go-sqlite3/tracecallback_noimpl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/mattn/go-sqlite3/sqlite3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2556">
+          <caret line="156" column="18" lean-forward="false" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/events_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="65" column="37" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/install_chaincode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/channel_queries_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-client/events/eventhub_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="131" column="25" lean-forward="false" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go17.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_go18.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials_util_pre_go17.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1609#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/def/fabapi/pkgfactory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/def/fabapi/fabapi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/fabric-ca-client/mocks/mockconfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#118#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/credentials/credentials.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1934#2109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/clientconn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="340" column="34" lean-forward="false" selection-start-line="340" selection-start-column="23" selection-end-line="340" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/go17.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#1598#1788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google.golang.org/grpc/proxy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1584#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/dc-orderer-kafka-base.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/dc-orderer-kafka.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
